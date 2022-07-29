@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ala-Carte Menu</title>
+    <link rel="stylesheet" href="CSS/EXCSS.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <style>
+        #bkimg {
+            background: url('Images/topala.png') no-repeat center center/cover;
+            width: 100%;
+            height: 350px;
+        }
+
+        #navi {
+            margin-left: 213px;
+            font-family: 'Kanit', sans-serif;
+            width: 70%;
+        }
+
+        #hdng {
+            font-size: 2.8rem;
+            text-align: center;
+            color: rgb(226, 100, 10);
+            text-decoration: underline;
+            font-weight: 590;
+        }
+
+        .menu {
+            display: flex;
+            justify-content: space-evenly;
+            width: 70%;
+            background-color: rgba(255,255,255,0.6);
+            border: 3px solid rgb(226, 100, 10);
+            border-radius: 20px;
+            margin: 50px 0px 50px 225px;
+        }
+
+        .menu:hover {
+            background-color: rgb(255, 255, 255);
+            box-shadow: 5px 5px black;
+        }
+
+        .menu table.menucard {
+            padding: 20px;
+        }
+
+        .menu table.menucard tr th {
+            padding-bottom: 20px;
+            font-family: 'Kanit', sans-serif;
+            font-size: 2rem;
+            color: rgb(226, 100, 10);
+        }
+
+        .menu table.menucard tr td {
+            font-family: 'Kanit', sans-serif;
+            font-size: 1.2rem;
+            color: #b6b638;
+            font-weight: 600;
+        }
+    </style>
+</head>
+
+<body>
+    <nav id="navbar"> <!--NAVBAR-->
+        <div id="logo">
+            <a href="index.html"><img src="Images/logo (2).png" alt="logo"></a>
+        </div>
+        <ul class="navbar">
+            <li class="nav_menu"><a href="index.html" target="_self">Home</a></li>
+            <li class="nav_menu"><a href="Alacarte.html" target="_self">Ala-Carte</a></li>
+            <li class="nav_menu"><a href="TOH.html" target="_self">Table D'Hote</a></li>
+            <li class="nav_menu"><a href="login.html" target="_self">Login</a></li>
+        </ul>
+        <img src="Images/prof.jpg" alt="profile">
+    </nav>
+
+    <div id="bkimg">     <!--Top Image-->
+    </div>
+
+    <div id="alaimg">
+
+        <div id="navi"> <!--internal navigation-->
+            <h1 id="hdng"> Ala-Carte Menu</h1>
+        </div>
+
+        <div class="menu">
+            <table class="menucard">
+                <tr>
+                    <th colspan="3">Veg Soups</th>
+                </tr>
+                <tr>
+                    <td>Cream Of Tomato Soup</td>
+                    <td>--------</td>
+                    <td>110/-</td>
+                </tr>
+                <tr>
+                    <td>Cream Of Veg Soup</td>
+                    <td>--------</td>
+                    <td>110/-</td>
+                </tr>
+                <tr>
+                    <td>Palak Soup</td>
+                    <td>--------</td>
+                    <td>120/-</td>
+                </tr>
+                <tr>
+                    <td>Manchow Soup</td>
+                    <td>--------</td>
+                    <td>115/-</td>
+                </tr>
+                <tr>
+                    <td>Veg Clear Soup</td>
+                    <td>--------</td>
+                    <td>110/-</td>
+                </tr>
+            </table>
+
+            <table class="menucard">
+                <tr>
+                    <th colspan="2">Non-Veg Soups</th>
+                </tr>
+                <tr>
+                    <td>Chicken Manchow Soup</td>
+                    <td>--------</td>
+                    <td>130/-</td>
+                </tr>
+                <tr>
+                    <td>Cream of Chicken Soup</td>
+                    <td>--------</td>
+                    <td>120/-</td>
+                </tr>
+                <tr>
+                    <td>Chicken Clear Soup</td>
+                    <td>--------</td>
+                    <td>120/-</td>
+                </tr>
+                <tr>
+                    <td>Prawns Manchow Soup</td>
+                    <td>--------</td>
+                    <td>115/-</td>
+                </tr>
+            </table>
+        </div>
+
+        <div class="menu">
+            <table class="menucard">
+                <tr>
+                    <th colspan="3">Veg Starters</th>
+                </tr>
+                <tr>
+                    <td>Paneer Reshmi Tikka</td>
+                    <td>--------</td>
+                    <td>220/-</td>
+                </tr>
+                <tr>
+                    <td>Veg Seekh Kebab</td>
+                    <td>--------</td>
+                    <td>200/-</td>
+                </tr>
+                <tr>
+                    <td>Paneer 65</td>
+                    <td>--------</td>
+                    <td>170/-</td>
+                </tr>
+                <tr>
+                    <td>Veg Gold Finger</td>
+                    <td>--------</td>
+                    <td>170/-</td>
+                </tr>
+                <tr>
+                    <td>Mushroom Chilli Manchurian</td>
+                    <td>--------</td>
+                    <td>180/-</td>
+                </tr>
+            </table>
+
+            <table class="menucard">
+                <tr>
+                    <th colspan="2">Non-Veg Starters</th>
+                </tr>
+                <tr>
+                    <td>Chicken Tangdi Kebab</td>
+                    <td>--------</td>
+                    <td>300/-</td>
+                </tr>
+                <tr>
+                    <td>Chicken Red Pepper</td>
+                    <td>--------</td>
+                    <td>260/-</td>
+                </tr>
+                <tr>
+                    <td>Chicken Garlic Pepper</td>
+                    <td>--------</td>
+                    <td>230/-</td>
+                </tr>
+                <tr>
+                    <td>Chicken Coriander</td>
+                    <td>--------</td>
+                    <td>230/-</td>
+                </tr>
+            </table>
+        </div>
+
+        <div class="menu">
+            <table class="menucard">
+                <tr>
+                    <th colspan="3">Veg Main Course</th>
+                </tr>
+                <tr>
+                    <td>Steam Rice WIth Dal Fry</td>
+                    <td>--------</td>
+                    <td>150/-</td>
+                </tr>
+                <tr>
+                    <td>Veg Hyderabadi Biryani</td>
+                    <td>--------</td>
+                    <td>180/-</td>
+                </tr>
+                <tr>
+                    <td>Paneer Pulav</td>
+                    <td>--------</td>
+                    <td>180/-</td>
+                </tr>
+                <tr>
+                    <td>Dal Khichdi Tadka</td>
+                    <td>--------</td>
+                    <td>170/-</td>
+                </tr>
+            </table>
+
+            <table class="menucard">
+                <tr>
+                    <th colspan="2">Non-Veg Main Course</th>
+                </tr>
+                <tr>
+                    <td>Jeera Rice with Chicken Masala</td>
+                    <td>--------</td>
+                    <td>200/-</td>
+                </tr>
+                <tr>
+                    <td>Chicken Do Pyaza with Tandoori Roti</td>
+                    <td>--------</td>
+                    <td>240/-</td>
+                </tr>
+                <tr>
+                    <td>Chicken Moghlai with Makai Roti</td>
+                    <td>--------</td>
+                    <td>220/-</td>
+                </tr>
+                <tr>
+                    <td>Chicken Rogan Josh with Cheese Garlic Naan</td>
+                    <td>--------</td>
+                    <td>250/-</td>
+                </tr>
+                <tr>
+                    <td>Egg Rice with Special Chicken Gravy</td>
+                    <td>--------</td>
+                    <td>250/-</td>
+                </tr>
+            </table>
+        </div>
+
+        <div class="menu">
+            <table class="menucard">
+                <tr>
+                    <th colspan="3">Deserts</th>
+                </tr>
+                <tr>
+                    <td>Icecreams 2 Scoops (Any Flavour)</td>
+                    <td>--------</td>
+                    <td>60/-</td>
+                </tr>
+                <tr>
+                    <td>Rasmalai</td>
+                    <td>--------</td>
+                    <td>90/-</td>
+                </tr>
+                <tr>
+                    <td>Special Brownie Sizzler with Vanilla Icecream</td>
+                    <td>--------</td>
+                    <td>120/-</td>
+                </tr>
+            </table>
+
+            <table class="menucard">
+                <tr>
+                    <th colspan="2">Beverages</th>
+                </tr>
+                <tr>
+                    <td>Soft Drinks 500ml (Any)</td>
+                    <td>--------</td>
+                    <td>40/-</td>
+                </tr>
+                <tr>
+                    <td>Macchiato</td>
+                    <td>--------</td>
+                    <td>80/-</td>
+                </tr>
+                <tr>
+                    <td>Ginger Tea</td>
+                    <td>--------</td>
+                    <td>40/-</td>
+                </tr>
+                <tr>
+                    <td>Budweiser</td>
+                    <td>--------</td>
+                    <td>170/-</td>
+                </tr>
+            </table>
+        </div>
+    
+    <footer id="footer">
+        <!--Footer-->
+        <div id="logo1">
+            <img src="Images/logo (2).png" alt="">
+        </div>
+        <div id="social">
+            <a href="#" class="fa fa-facebook"></a>
+            <a href="#" class="fa fa-instagram"></a>
+            <a href="#" class="fa fa-twitter"></a>
+        </div>
+        <div class="foot-links">
+            <ul id="foot_links">
+                <li class="nav_menu"><a href="index.html" target="_self">Home</a></li>
+                <li class="nav_menu"><a href="Alacarte.html" target="_self">Ala-Carte</a></li>
+                <li class="nav_menu"><a href="TOH.html" target="_self">Table D'Hote</a></li>
+                <li class="nav_menu"><a href="login.html" target="_self">Login</a></li>
+            </ul>
+        </div>
+        <div class="contact">
+            <p class="fa fa-thumb-tack" style="color: black;"></p>
+            <address> Khatra Mahal, Shaitan Galli,<br> Gunda Nagar, Shamshan ke Samne</address><br><br>
+            <p class="fa fa-phone" style="color: black;"></p>
+            <address> +91 1234567890</address><br><br>
+            <p class="fa fa-envelope-o" style="color: black;"></p>
+            <address> indianhub@hotmail.com</address><br><br>
+        </div>
+        <footer>
+    </div>
+</body>
+s</html>

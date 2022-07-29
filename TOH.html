@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table D'Hote Menu</title>
+    <link rel="stylesheet" href="CSS/EXCSS.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Kanit:wght@100;200&family=Mochiy+Pop+One&family=Orbitron&family=Smooch+Sans:wght@500&display=swap"
+        rel="stylesheet">
+    <style>
+        /* Top Section */
+        #top img {
+            height: 350px;
+            width: 100%;
+        }
+
+        #top p#heading {
+            text-align: center;
+            font-size: 2.8rem;
+            text-decoration: underline;
+            color: rgb(226, 100, 10);
+            font-family: 'Kanit', sans-serif;
+        }
+
+        /* Main Section */
+        #main {
+            width: 70%;
+            margin: 20px 0px 0px 215px;
+        }
+
+        #main dl#list dt.heads {
+            font-size: 2.8rem;
+            text-decoration: underline;
+            color: rgb(226, 100, 10);
+            font-family: 'Kanit', sans-serif;
+            margin-bottom: 15px;
+            margin-top: 20px;
+        }
+        #main dl#list dd#items {
+            padding: 2px;
+            font-size: 1.4rem;
+            font-weight: 600;
+            color: #b6b638;
+            font-family: 'Kanit', sans-serif;
+        }
+
+        p.desc{
+            border-bottom: 1px dashed;
+            font-family: 'Kanit', sans-serif;
+            padding: 2px;
+            font-size: 1rem;
+            font-weight: 600;
+            color: #1f1f1d;
+        }
+
+        #main p#cost{
+            font-family: 'Kanit', sans-serif;
+            font-size: 1.8rem;
+            margin: 30px 0px;
+            color: rgb(226, 100, 10);
+            font-weight: 600;
+        }
+    </style>
+</head>
+
+<body>
+    <nav id="navbar"> <!--NAVBAR-->
+        <div id="logo">
+            <a href="index.html"><img src="Images/logo (2).png" alt="logo"></a>
+        </div>
+        <ul class="navbar">
+            <li class="nav_menu"><a href="index.html" target="_self">Home</a></li>
+            <li class="nav_menu"><a href="Alacarte.html" target="_self">Ala-Carte</a></li>
+            <li class="nav_menu"><a href="TOH.html" target="_self">Table D'Hote</a></li>
+            <li class="nav_menu"><a href="login.html" target="_self">Login</a></li>
+        </ul>
+        <img src="Images/prof.jpg" alt="profile">
+    </nav>
+
+    <div id="top">
+        <!--TOH heading and img-->
+        <img src="Images/TOH1.jpg" alt="TOH">
+        <p id="heading">Table d'Hote Menu</p>
+    </div>
+
+    <div id="main"> <!--Menu List-->
+        <dl id="list">
+            <dt class="heads">Starters</dt>
+                <dd id="items">Chilli Prawns</dd>
+                <p class="desc">A sizzling combination of sautéed prawns, asian sauces, and fresh greens onions.</p>
+                <dd id="items">Chicken Patties</dd>
+                <p class="desc">Crispy and perfectly browned chicken pieces on the outside and juicy and tender on the inside.</p>
+                <dd id="items">Corn Chese Balls</dd>
+                <p class="desc">Stuffed cheese balls included boiled sweet corns and potatoes.</p>
+                <dd id="items">Garlic Paneer</dd>
+                <p class="desc">Delicious garlic flavoured paneer with some exotic spices.</p>
+            <dt class="heads">Soups</dt>
+                <dd id="items">Mulligatawany</dd>
+                <p class="desc">Black pepper-water soup with extra ingredients.</p>
+                <dd id="items">Mixed Vegetable Clear Soup</dd>
+                <p class="desc">Simmering veggies, & or meat in a liquid.</p>
+                <dd id="items">Makai Shorba</dd>
+                <p class="desc">A light, tasty soup made with sweet corn.</p>
+            <dt class="heads">Main Course</dt>
+                <dd id="items">Tawa Pulav</dd>
+                <p class="desc">Rice dish made with precooked basmati rice, veggies, pav bhaji masala and coriander leaves.</p>
+                <dd id="items">Prawns Rice</dd>
+                <p class="desc">Aromatic basmati rice dum cooked with prawns, herbs and spice powders.</p>
+                <dd id="items">Jeera Rice with Dal palak</dd>
+                <p class="desc">Cumin flavoured rice and spinach with pigeon pea lentil.</p>
+                <dd id="items">Dal Tadka with Flavoured Rice</dd>
+                <p class="desc">Flavourful and hearty lentil dish with spices flavoured rice.</p>
+            <dt class="heads">Desserts</dt>
+                <dd id="items">Rasmalai</dd>
+                <p class="desc"></p>
+                <dd id="items">Gulab Jamun</dd>
+                <p class="desc"></p>
+                <dd id="items">Banana Halwa</dd>
+                <p class="desc"></p>
+                <dd id="items">Sizzler Brownie</dd>
+                <p class="desc"></p>
+            <dt class="heads">Beverages</dt>
+                <dd id="items">Heineken <small>(Alcoholic and Non-alcoholic)</small></dd>
+                <p class="desc"></p>
+                <dd id="items">Budweiser <small>(Alcoholic and Non-alcoholic)</small></dd>
+                <p class="desc"></p>
+                <dd id="items">Corona Extra</dd>
+                <p class="desc"></p>
+                <dd id="items">Blue Moon</dd>
+                <p class="desc"></p>
+            </dl>
+            <p id="cost">Total Cost : ₹500 (per person)</p>
+    </div>
+    <footer id="footer"><!--Footer-->
+        <div id="logo1">
+            <img src="Images/logo (2).png" alt="">
+        </div>
+        <div id="social">
+            <a href="#" class="fa fa-facebook"></a>
+            <a href="#" class="fa fa-instagram"></a>
+            <a href="#" class="fa fa-twitter"></a>
+        </div>
+        <div class="foot-links">
+            <ul id="foot_links">
+                <li class="nav_menu"><a href="index.html" target="_self">Home</a></li>
+                <li class="nav_menu"><a href="Alacarte.html" target="_self">Ala-Carte</a></li>
+                <li class="nav_menu"><a href="TOH.html" target="_self">Table D'Hote</a></li>
+                <li class="nav_menu"><a href="login.html" target="_self">Login</a></li>
+            </ul>
+        </div>
+        <div class="contact">
+            <p class="fa fa-thumb-tack" style="color: black;"></p>
+            <address> Khatra Mahal, Shaitan Galli,<br> Gunda Nagar, Shamshan ke Samne</address><br><br>
+            <p class="fa fa-phone" style="color: black;"></p>
+            <address> +91 1234567890</address><br><br>
+            <p class="fa fa-envelope-o" style="color: black;"></p>
+            <address> indianhub@hotmail.com</address><br><br>
+        </div>
+        <footer>
+</body>
+
+</html>
